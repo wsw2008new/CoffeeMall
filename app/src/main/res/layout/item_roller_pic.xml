@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        android:id="@+id/roller_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/roller_tv"
+        android:paddingLeft="10dp"
+        android:text="新闻一"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:background="#3000"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/roller_iv"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

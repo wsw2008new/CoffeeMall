@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@color/color_cd3e3a</item>
+    </style>
+
+</resources>
